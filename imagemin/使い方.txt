@@ -1,0 +1,10 @@
+1. imageMinフォルダをコピーしてローカル(C)に保存
+
+2. ローカルディレクトリのimageMinのパスにて､cmdでnpm install実行
+  例えばdocumentsフォルダに保存した場合, /c/Users/ユーザー名/documents/imagemin
+
+3  ./images に圧縮したい画像を格納
+
+4. imageMinのパスにてnpm run imagemin
+
+5. /distフォルダに圧縮された画像が格納される(対応拡張子はjpg, png, gif)
